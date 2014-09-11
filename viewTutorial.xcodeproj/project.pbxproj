@@ -22,6 +22,7 @@
 		ACEE3DA819C12CAC00E047AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACEE3D8719C12CAC00E047AD /* UIKit.framework */; };
 		ACEE3DB019C12CAC00E047AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACEE3DAE19C12CAC00E047AD /* InfoPlist.strings */; };
 		ACEE3DB219C12CAC00E047AD /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEE3DB119C12CAC00E047AD /* viewTutorialTests.m */; };
+		ACEE3DBD19C12E2F00E047AD /* JKGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEE3DBC19C12E2F00E047AD /* JKGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		ACEE3DAD19C12CAC00E047AD /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		ACEE3DAF19C12CAC00E047AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACEE3DB119C12CAC00E047AD /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		ACEE3DBB19C12E2F00E047AD /* JKGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKGrid.h; sourceTree = "<group>"; };
+		ACEE3DBC19C12E2F00E047AD /* JKGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				ACEE3D9819C12CAC00E047AD /* Main_iPad.storyboard */,
 				ACEE3D9B19C12CAC00E047AD /* JKViewController.h */,
 				ACEE3D9C19C12CAC00E047AD /* JKViewController.m */,
+				ACEE3DBB19C12E2F00E047AD /* JKGrid.h */,
+				ACEE3DBC19C12E2F00E047AD /* JKGrid.m */,
 				ACEE3D9E19C12CAC00E047AD /* Images.xcassets */,
 				ACEE3D8A19C12CAC00E047AD /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 			files = (
 				ACEE3D9019C12CAC00E047AD /* main.m in Sources */,
 				ACEE3D9D19C12CAC00E047AD /* JKViewController.m in Sources */,
+				ACEE3DBD19C12E2F00E047AD /* JKGrid.m in Sources */,
 				ACEE3D9419C12CAC00E047AD /* JKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
